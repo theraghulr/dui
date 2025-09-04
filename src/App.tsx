@@ -11,9 +11,9 @@ const App = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Homepage</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>About</a></li>
+        <li><button className="btn btn-warning">Homepage</button></li>
+        <li><button className="btn btn-secondary">Portfolio</button></li>
+        <li><button className="btn btn-info">Signout</button></li>
       </ul>
     </div>
   </div>
