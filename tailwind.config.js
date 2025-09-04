@@ -1,3 +1,6 @@
+import daisyui from "daisyui";
+
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -6,5 +9,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],   // ⬅️ add daisyUI here
+  plugins: [daisyui],  // ✅ use ESM import
 }
+
